@@ -1,0 +1,15 @@
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsDomainLayer.csprojResolveAssemblyReference.cache
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsDomainLayer.csprojResolveAssemblyReference.cache
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsDomainLayer.csprojResolveAssemblyReference.cache
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.pdb

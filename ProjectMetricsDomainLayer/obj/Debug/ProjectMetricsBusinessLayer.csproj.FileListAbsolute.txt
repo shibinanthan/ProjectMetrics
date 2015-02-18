@@ -1,0 +1,7 @@
+c:\users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\bin\Debug\ProjectMetricsBusinessLayer.dll
+c:\users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\bin\Debug\ProjectMetricsBusinessLayer.pdb
+c:\users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\obj\Debug\ProjectMetricsBusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\obj\Debug\ProjectMetricsBusinessLayer.dll
+c:\users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\obj\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\bin\Debug\ProjectMetricsDataLayer.dll
+C:\Users\377539\documents\visual studio 2012\Projects\ProjectMetricsBusinessLayer\ProjectMetricsBusinessLayer\bin\Debug\ProjectMetricsDataLayer.pdb

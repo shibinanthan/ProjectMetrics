@@ -1,0 +1,21 @@
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.csprojResolveAssemblyReference.cache
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.csprojResolveAssemblyReference.cache
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.csprojResolveAssemblyReference.cache
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.pdb

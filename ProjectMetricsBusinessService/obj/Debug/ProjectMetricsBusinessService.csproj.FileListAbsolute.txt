@@ -1,0 +1,36 @@
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.dll
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.pdb
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.csprojResolveAssemblyReference.cache
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.dll
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.pdb
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataLayer.dll
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataLayer.pdb
+C:\Users\377539\Documents\Visual Studio 2012\Projects\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.csprojResolveAssemblyReference.cache
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.pdb
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.dll
+C:\Users\Alavudeen\Downloads\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.csprojResolveAssemblyReference.cache
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.dll
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+C:\Users\377539\Desktop\PM Tool\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.csprojResolveAssemblyReference.cache
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.pdb
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.dll
+F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.pdb
