@@ -37,3 +37,12 @@ F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\Proje
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataLayer\obj\Debug\ProjectMetricsDataLayer.csprojResolveAssemblyReference.cache
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataLayer\obj\Debug\ProjectMetricsDataLayer.dll
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataLayer\obj\Debug\ProjectMetricsDataLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\ProjectMetricsDataLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\ProjectMetricsDataLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\ProjectMetricsBusinessLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\ProjectMetricsDataAccessContracts.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\bin\Debug\ProjectMetricsBusinessLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\obj\Debug\ProjectMetricsDataLayer.csprojResolveAssemblyReference.cache
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\obj\Debug\ProjectMetricsDataLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataLayer\obj\Debug\ProjectMetricsDataLayer.pdb

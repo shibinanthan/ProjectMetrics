@@ -19,3 +19,10 @@ F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\D
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.csprojResolveAssemblyReference.cache
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.dll
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\bin\Debug\ProjectMetricsBusinessLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.csprojResolveAssemblyReference.cache
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDataAccessContracts\obj\Debug\ProjectMetricsDataAccessContracts.pdb

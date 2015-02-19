@@ -16,10 +16,10 @@ namespace Cognizant.Tools.ProjectMetrics.DomainLayer
         [Column]
         public string Name { get; private set; }
 
-        public Team(string teamName)
-        {
-            Name = teamName;
-        }
+        //public Team(string teamName)
+        //{
+        //    Name = teamName;
+        //}
 
     }
 }

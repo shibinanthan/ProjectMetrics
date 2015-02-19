@@ -34,3 +34,12 @@ F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.pdb
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.dll
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessService.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsDataAccessContracts.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\bin\Debug\ProjectMetricsBusinessLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.csprojResolveAssemblyReference.cache
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsBusinessService\obj\Debug\ProjectMetricsBusinessService.pdb

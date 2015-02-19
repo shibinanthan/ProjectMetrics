@@ -29,7 +29,9 @@ namespace Cognizant.Tools.ProjectMetrics.DataLayer
 
         public List<Team> GetAll()
         {
-            throw new NotImplementedException();
+            var team = (from tm in base.GetTable select tm).ToList();
+
+            return team;
         }
 
         public void Insert(Team release)

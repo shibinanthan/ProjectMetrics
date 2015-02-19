@@ -19,5 +19,14 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Helpers
                     return taskService.GetAll();
             }
         }
+
+        public static List<Team> GetAllTeams()
+        {
+            using (var context = new PMDataContext())
+            {
+                var taskService = new TeamService(new TeamRepository(context));
+                return taskService.GetAll();
+            }
+        }
     }
 }

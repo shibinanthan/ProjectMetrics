@@ -22,9 +22,14 @@ namespace Cognizant.Tools.ProjectMetrics.BusinessService
 
             if (existDetails == null)
             {
-                teamRepository.Insert(new Team(teamName));
+                //teamRepository.Insert(new Team(teamName));
                 teamRepository.Commit();
             }
+        }
+
+        public List<Team> GetAll()
+        {
+            return this.teamRepository.GetAll();
         }
     }
 }

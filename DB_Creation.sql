@@ -1,3 +1,4 @@
+--CREATE DATABASE TaskTool
 IF NOT EXISTS(SELECT 1 FROM SYS.TABLES WHERE name='Project')
 BEGIN
 
@@ -5,11 +6,11 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Project](
-	[PrjID] [int] IDENTITY(1,1) NOT NULL,
-	[ProjectID] [int] NOT NULL,
-	[Description] [Varchar](50),--Size to be increased bit more
-	[ReleaseId] [int] NOT NULL,
-	[TeamId] [int] NOT NULL
+	[PrjID] [uniqueidentifier] NOT NULL,
+	[ProjectID] [uniqueidentifier] NOT NULL,
+	[Description] [Varchar](200),
+	[ReleaseId] [uniqueidentifier] NOT NULL,
+	[TeamId] [uniqueidentifier] NOT NULL
 PRIMARY KEY CLUSTERED 
 (
 	[PrjID] ASC
@@ -26,8 +27,8 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Release](
-	[ReleaseID] [int] IDENTITY(1,1) NOT NULL,	
-	[Description] [Varchar](50)	
+	[ReleaseID] [uniqueidentifier] NOT NULL,	
+	[Description] [Varchar](200)	
 PRIMARY KEY CLUSTERED 
 (
 	[ReleaseID] ASC
@@ -44,9 +45,9 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Requirement](
-	[ReqID] [int] IDENTITY(1,1) NOT NULL,	
-	[PrjID] [int] NOT NULL,
-	[Description] [Varchar](50) NOT NULL	
+	[ReqID] [uniqueidentifier] NOT NULL,	
+	[PrjID] [uniqueidentifier] NOT NULL,
+	[Description] [Varchar](200) NOT NULL	
 PRIMARY KEY CLUSTERED 
 (
 	[ReqID] ASC
@@ -63,8 +64,8 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Phase](
-	[PhaseID] [int] IDENTITY(1,1) NOT NULL,		
-	[Description] [Varchar](50) NOT NULL	
+	[PhaseID] [uniqueidentifier] NOT NULL,		
+	[Description] [Varchar](200) NOT NULL	
 PRIMARY KEY CLUSTERED 
 (
 	[PhaseID] ASC
@@ -81,9 +82,9 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Activity](
-	[ActivityID] [int] IDENTITY(1,1) NOT NULL,	
-	[PhaseID] [int] NOT NULL,		
-	[Description] [Varchar](50) NOT NULL	
+	[ActivityID] [uniqueidentifier] NOT NULL,	
+	[PhaseID] [uniqueidentifier] NOT NULL,		
+	[Description] [Varchar](200) NOT NULL	
 PRIMARY KEY CLUSTERED 
 (
 	[ActivityID] ASC
@@ -100,8 +101,8 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Process](
-	[ProcessID] [int] IDENTITY(1,1) NOT NULL,	
-	[ActivityID] [int] NOT NULL,		
+	[ProcessID] [uniqueidentifier] NOT NULL,	
+	[ActivityID] [uniqueidentifier] NOT NULL,		
 	[Description] [Varchar](50) NOT NULL	
 PRIMARY KEY CLUSTERED 
 (
@@ -112,42 +113,6 @@ PRIMARY KEY CLUSTERED
 END
 GO		
  	
-IF NOT EXISTS(SELECT 1 FROM SYS.TABLES WHERE name='Priority')
-BEGIN
-
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
-
-CREATE TABLE [dbo].[Priority](
-	[PriorityID] [int] IDENTITY(1,1) NOT NULL,		
-	[Description] [Varchar](50) NOT NULL	
-PRIMARY KEY CLUSTERED 
-(
-	[PriorityID] ASC
-)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
-) ON [PRIMARY]
-
-END
-GO
-
-IF NOT EXISTS(SELECT 1 FROM SYS.TABLES WHERE name='Status')
-BEGIN
-
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
-
-CREATE TABLE [dbo].[Status](
-	[StatusID] [int] IDENTITY(1,1) NOT NULL,		
-	[Description] [Varchar](50) NOT NULL	
-PRIMARY KEY CLUSTERED 
-(
-	[StatusID] ASC
-)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
-) ON [PRIMARY]
-
-END
-GO
-	
 IF NOT EXISTS(SELECT 1 FROM SYS.TABLES WHERE name='Team')
 BEGIN
 
@@ -155,7 +120,7 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Team](
-	[TeamID] [int] IDENTITY(1,1) NOT NULL,		
+	[TeamID] [uniqueidentifier] NOT NULL,		
 	[Name] [Varchar](50) NOT NULL	
 PRIMARY KEY CLUSTERED 
 (
@@ -175,7 +140,7 @@ SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[Employee](
 	[EmpID] [int] IDENTITY(1,1) NOT NULL,		
 	[Name] [Varchar](50) NOT NULL,
-	[TeamID] [int] NOT NULL,		
+	[TeamID] [uniqueidentifier] NOT NULL,	
 PRIMARY KEY CLUSTERED 
 (
 	[EmpID] ASC
@@ -192,27 +157,28 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 
 CREATE TABLE [dbo].[Task](
-	[TaskID] [int] IDENTITY(1,1) NOT NULL,		
+	[TaskID] [uniqueidentifier] NOT NULL,		
 	[Description] [Varchar](100) NOT NULL,
-	[PrjID] [int] NOT NULL,
-	[ReqID] [int] NOT NULL,
-	[ProcessID] [int] NOT NULL,
+	[PrjID] [uniqueidentifier] NOT NULL,
+	[ReqID] [uniqueidentifier] NOT NULL,
+	[ProcessID] [uniqueidentifier] NOT NULL,
 	[EmpID] [int] NOT NULL,
-    [PlannedStartDate] [DateTime] NOT NULL,
-    [PlannedEndDate][DateTime] NOT NULL,
-	[ActualStartDate][DateTime] NOT NULL,
-	[ActualEndDate][DateTime] NOT NULL,
+    [PlannedStartDate] [DateTime] NULL,
+    [PlannedEndDate][DateTime] NULL,
+	[ActualStartDate][DateTime] NULL,
+	[ActualEndDate][DateTime] NULL,
 	[CreatedDate][DateTime] NOT NULL,
 	[UpdatedDate][DateTime] NOT NULL,
 	[TotalDuration] [Decimal] NOT NULL,
-	[TotalEffort] [Decimal] NOT NULL,
+	[TotalEffort] [Decimal] NOT NULL, 
 	[TaskType] [Varchar](50),
-    [PriorityId] [int] NOT NULL,
-    [TaskStatusId] [int] NOT NULL,
+    [Priority] [int] NOT NULL,
+    [TaskStatus] [int] NOT NULL,
 	[Allocation] [Varchar](50),
 	[Comments] [Varchar] (100),
 	[AnyChangeInReq] [bit],
-	[Risk] [Varchar](50)
+	[Risk] [Varchar](50),
+	[IsActive] [bit] NOT NULL DEFAULT 1,
 PRIMARY KEY CLUSTERED 
 (
 	[TaskID] ASC

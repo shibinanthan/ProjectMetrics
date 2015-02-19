@@ -24,7 +24,7 @@ namespace Cognizant.Tools.ProjectMetrics.BusinessService
 
             if (team == null)
             {
-                teamRepository.Insert(new Team(teamName));
+                //teamRepository.Insert(new Team(teamName));
                 teamRepository.Commit();
             }
 

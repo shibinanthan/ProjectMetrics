@@ -13,3 +13,8 @@ F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\Pro
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsDomainLayer.csprojResolveAssemblyReference.cache
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.dll
 F:\Mabi\Careers\Practices\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDomainLayer\bin\Debug\ProjectMetricsBusinessLayer.pdb
+D:\Mahesh\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsDomainLayer.csprojResolveAssemblyReference.cache
+D:\Mahesh\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.dll
+D:\Mahesh\ProjectMetrics\ProjectMetricsDomainLayer\obj\Debug\ProjectMetricsBusinessLayer.pdb

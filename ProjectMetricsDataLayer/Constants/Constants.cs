@@ -8,6 +8,6 @@ namespace Cognizant.Tools.ProjectMetrics.DataLayer
 {
     public class Constants
     {
-        public const string ConnectionString = "Server=SHIBINANTHAN;Database=PMTool;Trusted_Connection=True;";
+        public const string ConnectionString = @"Server=PC238724\SQLSERVER;Database=PMTool;Trusted_Connection=True;";
     }
 }

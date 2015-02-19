@@ -31,9 +31,9 @@ namespace Cognizant.Tools.ProjectMetrics.BusinessService
 
             if (taskDetals == null)
             {
-                this.taskRepository.Insert(new TaskDetail(taskDescription, prjId, reqId, processId, empID,
-                         plannedStartDate, plannedEndDate, actualStartDate, actualEndDate, durationInDays, effortsInHours,
-                         taskType, tskStatus, comments, anyChangeInReq, risk));
+                //this.taskRepository.Insert(new TaskDetail(taskDescription, prjId, reqId, processId, empID,
+                //         plannedStartDate, plannedEndDate, actualStartDate, actualEndDate, durationInDays, effortsInHours,
+                //         taskType, tskStatus, comments, anyChangeInReq, risk));
 
                 this.taskRepository.Commit();
             }

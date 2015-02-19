@@ -15,8 +15,8 @@ namespace Cognizant.Tools.ProjectMetrics.DomainLayer
         private DateTime? actualStartDate;
         private DateTime? actualEndDate;
 
-        [Column(IsDbGenerated = true)]
-        public Guid ID { get; private set; }
+        //[Column(IsDbGenerated = true)]
+        //public Guid ID { get; private set; }
         [Column]
         public string Description { get; private set; }
         [Column]
@@ -109,49 +109,49 @@ namespace Cognizant.Tools.ProjectMetrics.DomainLayer
         [Column]
         public string Risk { get; private set; }
 
-        public TaskDetail(string taskDescription, Guid prjId, Guid releaseId, Guid reqId, Guid processId, int empID,
-                    DateTime? plannedStartDate, DateTime? plannedEndDate, DateTime? actualStartDate, DateTime? actualEndDate, int durationInDays, int effortsInHours,
-                    TaskType taskType, StatusofTask tskStatus, string comments, Confirmation anyChangeInReq, string risk)
-        {
-            Description = taskDescription;
-            PrjID = prjId;
-            ReleaseID = releaseId;
-            ReqID = reqId;
-            ProcessID = processId;
-            EmpID = empID;
-            PlannedStartDate = plannedStartDate;
-            PlannedEndDate = plannedEndDate;
-            ActualStartDate = actualStartDate;
-            ActualEndDate = actualEndDate;
-            CreatedDate = DateTime.Now;
-            TotalDuration = durationInDays;
-            TotalEffort = effortsInHours;
-            TaskType = taskType;
-            StatusofTask = tskStatus;
-            Comments = comments;
-            AnyChangeInReq = anyChangeInReq;
-            Risk = risk;
-        }
+        //public TaskDetail(string taskDescription, Guid prjId, Guid releaseId, Guid reqId, Guid processId, int empID,
+        //            DateTime? plannedStartDate, DateTime? plannedEndDate, DateTime? actualStartDate, DateTime? actualEndDate, int durationInDays, int effortsInHours,
+        //            TaskType taskType, StatusofTask tskStatus, string comments, Confirmation anyChangeInReq, string risk)
+        //{
+        //    Description = taskDescription;
+        //    PrjID = prjId;
+        //    ReleaseID = releaseId;
+        //    ReqID = reqId;
+        //    ProcessID = processId;
+        //    EmpID = empID;
+        //    PlannedStartDate = plannedStartDate;
+        //    PlannedEndDate = plannedEndDate;
+        //    ActualStartDate = actualStartDate;
+        //    ActualEndDate = actualEndDate;
+        //    CreatedDate = DateTime.Now;
+        //    TotalDuration = durationInDays;
+        //    TotalEffort = effortsInHours;
+        //    TaskType = taskType;
+        //    StatusofTask = tskStatus;
+        //    Comments = comments;
+        //    AnyChangeInReq = anyChangeInReq;
+        //    Risk = risk;
+        //}
 
-        public TaskDetail(string taskDescription, Guid prjId, Guid reqId, Guid processId, int empID, DateTime plannedStartDate, DateTime plannedEndDate, DateTime actualStartDate, DateTime actualEndDate, int durationInDays, int effortsInHours, DomainLayer.TaskType taskType, DomainLayer.StatusofTask tskStatus, string comments, Confirmation anyChangeInReq, string risk)
-        {
-            Description = taskDescription;
-            PrjID = prjId;
-            ReqID = reqId;
-            ProcessID = processId;
-            EmpID = empID;
-            PlannedStartDate = plannedStartDate;
-            PlannedEndDate = plannedEndDate;
-            ActualStartDate = actualStartDate;
-            ActualEndDate = actualEndDate;
-            CreatedDate = DateTime.Now;
-            TotalDuration = durationInDays;
-            TotalEffort = effortsInHours;
-            TaskType = taskType;
-            StatusofTask = tskStatus;
-            Comments = comments;
-            AnyChangeInReq = anyChangeInReq;
-            Risk = risk;
-        }
+        //public TaskDetail(string taskDescription, Guid prjId, Guid reqId, Guid processId, int empID, DateTime plannedStartDate, DateTime plannedEndDate, DateTime actualStartDate, DateTime actualEndDate, int durationInDays, int effortsInHours, DomainLayer.TaskType taskType, DomainLayer.StatusofTask tskStatus, string comments, Confirmation anyChangeInReq, string risk)
+        //{
+        //    Description = taskDescription;
+        //    PrjID = prjId;
+        //    ReqID = reqId;
+        //    ProcessID = processId;
+        //    EmpID = empID;
+        //    PlannedStartDate = plannedStartDate;
+        //    PlannedEndDate = plannedEndDate;
+        //    ActualStartDate = actualStartDate;
+        //    ActualEndDate = actualEndDate;
+        //    CreatedDate = DateTime.Now;
+        //    TotalDuration = durationInDays;
+        //    TotalEffort = effortsInHours;
+        //    TaskType = taskType;
+        //    StatusofTask = tskStatus;
+        //    Comments = comments;
+        //    AnyChangeInReq = anyChangeInReq;
+        //    Risk = risk;
+        //}
     }
 }
