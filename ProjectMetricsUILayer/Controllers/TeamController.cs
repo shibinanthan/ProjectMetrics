@@ -4,24 +4,22 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Helpers;
-using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Models;
-using Cognizant.Tools.ProjectMetrics.DomainLayer;
 
 namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
 {
-    public class TaskController : Controller
+    public class TeamController : Controller
     {
         //
-        // GET: /Task/
+        // GET: /Team/
 
         public ActionResult Index()
         {
-            var taskItems = Gateway.GetAllTasks();
-            return View(taskItems);
+            var teamItems = Gateway.GetAllTeams();
+            return View(teamItems);
         }
 
         //
-        // GET: /Task/Details/5
+        // GET: /Team/Details/5
 
         public ActionResult Details(int id)
         {
@@ -29,22 +27,15 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
         }
 
         //
-        // GET: /Task/Create
+        // GET: /Team/Create
 
         public ActionResult Create()
         {
-            var taskModel = new TaskModel();
-            taskModel.Teams = Gateway.GetAllTeams().AsQueryable<Team>().Select(x =>
-                                                            new SelectListItem()
-                                                            {
-                                                                Text = x.Name,
-                                                                Value = x.ID.ToString()
-                                                            });
-            return View(taskModel);
+            return View();
         }
 
         //
-        // POST: /Task/Create
+        // POST: /Team/Create
 
         [HttpPost]
         public ActionResult Create(FormCollection collection)
@@ -62,7 +53,7 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
         }
 
         //
-        // GET: /Task/Edit/5
+        // GET: /Team/Edit/5
 
         public ActionResult Edit(int id)
         {
@@ -70,7 +61,7 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
         }
 
         //
-        // POST: /Task/Edit/5
+        // POST: /Team/Edit/5
 
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
@@ -88,7 +79,7 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
         }
 
         //
-        // GET: /Task/Delete/5
+        // GET: /Team/Delete/5
 
         public ActionResult Delete(int id)
         {
@@ -96,7 +87,7 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
         }
 
         //
-        // POST: /Task/Delete/5
+        // POST: /Team/Delete/5
 
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
