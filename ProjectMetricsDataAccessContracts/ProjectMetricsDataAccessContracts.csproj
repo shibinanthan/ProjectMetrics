@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Contracts\IActivityRepository.cs" />
     <Compile Include="Contracts\IEmployeeRepository.cs" />
+    <Compile Include="Contracts\ILoginRepository.cs" />
     <Compile Include="Contracts\IPhaseRepositorycs.cs" />
     <Compile Include="Contracts\IProcessRepository.cs" />
     <Compile Include="Contracts\IProjectRepository.cs" />

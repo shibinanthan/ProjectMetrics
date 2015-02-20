@@ -10,7 +10,7 @@ namespace Cognizant.Tools.ProjectMetrics.DomainLayer
     [Table]
     public class Team
     {
-        [Column(IsDbGenerated = true)]
+        [Column(IsDbGenerated = true, Name ="TeamID")]
         public Guid ID { get; private set; }
 
         [Column]

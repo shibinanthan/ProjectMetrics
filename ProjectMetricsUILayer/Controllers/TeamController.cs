@@ -4,9 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Helpers;
+using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Filters;
 
 namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
 {
+    [CustomAuthorization]
     public class TeamController : Controller
     {
         //

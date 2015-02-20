@@ -6,9 +6,11 @@ using System.Web.Mvc;
 using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Helpers;
 using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Models;
 using Cognizant.Tools.ProjectMetrics.DomainLayer;
+using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Filters;
 
 namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
 {
+    [CustomAuthorization]
     public class TaskController : Controller
     {
         //

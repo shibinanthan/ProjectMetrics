@@ -28,5 +28,14 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Helpers
                 return taskService.GetAll();
             }
         }
+
+        public static User ValidateUser(string userName, string password)
+        {
+            using (var context = new PMDataContext())
+            {
+                var loginService = new LoginService(new LoginRepository(context));
+                return loginService.GetByCredential(userName, password);
+            }
+        }
     }
 }

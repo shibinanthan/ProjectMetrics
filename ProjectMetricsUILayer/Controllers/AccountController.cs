@@ -10,6 +10,7 @@ using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using ProjectMetricsUILayer.Filters;
 using ProjectMetricsUILayer.Models;
+using Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Helpers;
 
 namespace ProjectMetricsUILayer.Controllers
 {
@@ -35,8 +36,11 @@ namespace ProjectMetricsUILayer.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Login(LoginModel model, string returnUrl)
         {
-            if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
+            //if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
+            var user = Gateway.ValidateUser(model.UserName, model.Password);
+            if (ModelState.IsValid && user.ID > 0)
             {
+                HttpContext.Session.Add("UserDetail", user);
                 return RedirectToLocal(returnUrl);
             }
 
@@ -337,7 +341,7 @@ namespace ProjectMetricsUILayer.Controllers
             }
             else
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Create", "Task");
             }
         }
 

@@ -49,6 +49,7 @@
     <Compile Include="Repository\ActivityRepository.cs" />
     <Compile Include="Repository\BaseRepository.cs" />
     <Compile Include="Repository\EmployeeRepository.cs" />
+    <Compile Include="Repository\LoginRepository.cs" />
     <Compile Include="Repository\PhaseRepository.cs" />
     <Compile Include="Repository\ProcessRepository.cs" />
     <Compile Include="Repository\ProjectRepository.cs" />

@@ -50,6 +50,7 @@
     <Compile Include="DomainModel\Requirement.cs" />
     <Compile Include="DomainModel\TaskDetail.cs" />
     <Compile Include="DomainModel\Team.cs" />
+    <Compile Include="DomainModel\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

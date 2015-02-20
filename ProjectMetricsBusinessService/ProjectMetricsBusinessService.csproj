@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessService\EmployeeService.cs" />
+    <Compile Include="BusinessService\LoginService.cs" />
     <Compile Include="BusinessService\ProcessDetails.cs" />
     <Compile Include="BusinessService\ProcessService.cs" />
     <Compile Include="BusinessService\ProjectService.cs" />
