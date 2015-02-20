@@ -40,6 +40,19 @@ namespace Cognizant.Tools.ProjectMetrics.ProjectMetricsUILayer.Controllers
                                                                 Text = x.Name,
                                                                 Value = x.ID.ToString()
                                                             });
+            taskModel.TeamMemebrs = Gateway.GetAllTeams().AsQueryable<Team>().Select(x =>
+                                                            new SelectListItem()
+                                                            {
+                                                                Text = x.Name,
+                                                                Value = x.ID.ToString()
+                                                            });
+            taskModel.TaskType = Gateway.GetAllTeams().AsQueryable<Team>().Select(x =>
+                                                            new SelectListItem()
+                                                            {
+                                                                Text = x.Name,
+                                                                Value = x.ID.ToString()
+                                                            });
+            taskModel.CreationDate = DateTime.Now;
             return View(taskModel);
         }
 
